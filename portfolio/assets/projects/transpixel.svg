@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4b3fd6"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="200" fill="none" stroke="url(#cyan)" stroke-width="1" opacity="0.3"/>
+  <circle cx="400" cy="300" r="140" fill="none" stroke="url(#cyan)" stroke-width="1" opacity="0.2"/>
+  <circle cx="400" cy="300" r="80" fill="none" stroke="url(#cyan)" stroke-width="2" opacity="0.5"/>
+  <!-- 3D cube wireframe -->
+  <g transform="translate(400,280) rotate(-15)" opacity="0.7">
+    <polygon points="-40,-40 40,-40 40,40 -40,40" fill="none" stroke="#00d4ff" stroke-width="2"/>
+    <polygon points="-25,-55 55,-55 55,25 -25,25" fill="none" stroke="#7b2ff7" stroke-width="1.5"/>
+    <line x1="-40" y1="-40" x2="-25" y2="-55" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+    <line x1="40" y1="-40" x2="55" y2="-55" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+    <line x1="40" y1="40" x2="55" y2="25" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+    <line x1="-40" y1="40" x2="-25" y2="25" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  </g>
+  <circle cx="400" cy="300" r="6" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="400" cy="300" r="12" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  <text x="400" y="520" text-anchor="middle" font-family="monospace" font-size="16" fill="#00d4ff" opacity="0.5" letter-spacing="10">TRANSPIXEL</text>
+</svg>
