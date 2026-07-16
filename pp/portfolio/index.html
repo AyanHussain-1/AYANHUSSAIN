@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayan Hussain — Motion Designer & Video Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav">
+    <div class="nav-left">     
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+    </div>
+    <div class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-bg"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow reveal">Available for freelance & full-time</p>
+      <h1 class="hero-name reveal">Ayan Hussain</h1>
+      <h2 class="hero-role reveal">Motion Designer &amp; <em>Video Editor</em></h2>
+      <p class="hero-intro reveal">I craft cinematic visuals, motion graphics, and premium video experiences that tell unforgettable stories.</p>
+      <div class="hero-buttons reveal">
+        <a href="#" class="btn btn-primary" id="resumeBtn">
+          Download Resume
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v13m0 0l-5-5m5 5l5-5M5 21h14"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Let's Work Together</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div><b>5+</b><span>Years Experience</span></div>
+        <div><b>200+</b><span>Projects Delivered</span></div>
+        <div><b>150+</b><span>Happy Clients</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="glow-blob b1"></div>
+      <div class="glow-blob b2"></div>
+
+      <div class="tilt-wrap" id="tiltWrap">
+        <div class="avatar-frame" id="avatarFrame">
+          <img src="assets/ayan-profile.png" alt="Ayan Hussain, Motion Designer and Video Editor" class="avatar-photo">
+          <div class="avatar-sheen"></div>
+          <div class="avatar-glare" id="avatarGlare"></div>
+        </div>
+      </div>
+
+      <div class="orbit-chip c1"><img src="assets/logos/premiere-pro.svg" alt="Pr"></div>
+      <div class="orbit-chip c2"><img src="assets/logos/after-effects.svg" alt="Ae"></div>
+      <div class="orbit-chip c3"><img src="assets/logos/illustrator.svg" alt="Ai"></div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Scroll</span><div class="line"></div></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="eyebrow">About Me</p>
+        <h2 class="section-title">Turning raw footage into <br>stories worth remembering.</h2>
+        <div class="tag-cloud">
+          <span class="tag">Motion Design</span>
+          <span class="tag">Video Editing</span>
+          <span class="tag">Storytelling</span>
+          <span class="tag">Branding</span>
+          <span class="tag">Creative Direction</span>
+        </div>
+      </div>
+      <div class="about-grid-right">
+        <div class="about-text reveal">
+          <p>I'm a <b>Motion Designer</b> and <b>Video Editor</b> with a craftsman's eye for pacing, rhythm, and detail. My work lives at the intersection of <b>storytelling</b> and <b>branding</b> — built to hold attention in a feed that moves fast.</p>
+          <p>From concept to final export, I handle <b>motion graphics</b> and <b>creative direction</b> end-to-end, working almost entirely inside the <b>Adobe ecosystem</b>. I've spent years collaborating with distributed teams, so <b>remote collaboration</b> isn't an adjustment for me — it's just how I work.</p>
+        </div>
+        <div class="about-card reveal">
+          <h4>Core Focus</h4>
+          <ul class="about-list">
+            <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></span>Motion Graphics &amp; Animation</li>
+            <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z"/><path d="M8 20h8M12 16v4"/></svg></span>Video Editing &amp; Color Grading</li>
+            <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span>Brand Identity &amp; Creative Direction</li>
+            <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a15 15 0 010 18 15 15 0 010-18M3 12h18"/></svg></span>Remote-first Global Collaboration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">Where I've worked</h2>
+      <p class="section-sub">A timeline of studios and teams I've helped bring stories to life.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="t-item current reveal">
+        <div class="t-dot"></div>
+        <div class="t-head">
+          <span class="t-role">Video Editor</span>
+          <span class="t-badge live">Present</span>
+        </div>
+        <p class="t-company"><b>Kuku FM</b> · Full Time</p>
+        <p class="t-meta">Aug 2025 — Present &nbsp;·&nbsp; India · Remote</p>
+        <p class="t-desc">Designed and edited high-quality motion graphics and videos across multiple industries, collaborating with creative teams to deliver engaging visual content while meeting strict deadlines.</p>
+        <div class="t-skills">
+          <span>Adobe Photoshop</span><span>Premiere Pro</span><span>After Effects</span><span>Illustrator</span>
+        </div>
+      </div>
+
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-head"><span class="t-role">Motion Graphic Designer</span></div>
+        <p class="t-company"><b>Transpixel Studio</b> · Full Time</p>
+        <p class="t-meta">Feb 2019 — Present &nbsp;·&nbsp; New Delhi · Remote</p>
+        <p class="t-desc">Worked on commercial motion graphics, advertising campaigns, branding animations, and marketing creatives.</p>
+      </div>
+
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-head"><span class="t-role">Video Editor</span></div>
+        <p class="t-company"><b>Encreators</b> · Freelance</p>
+        <p class="t-meta">Sep 2021 — Aug 2025 &nbsp;·&nbsp; India · Remote</p>
+        <p class="t-desc">Produced YouTube videos, promotional content, social media campaigns and branding projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">Tools &amp; craft</h2>
+      <p class="section-sub">The software and disciplines I use to take a project from raw footage to final cut.</p>
+    </div>
+
+    <!-- Skill cards are injected by script.js; this grid keeps every card uniform. -->
+    <div class="skills-grid" id="skillsGrid"></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Education</p>
+      <h2 class="section-title">Foundation</h2>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-ico">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
+      </div>
+      <div class="edu-info">
+        <h4>MAAC</h4>
+        <p class="edu-course">Animation &amp; Motion Design</p>
+        <div class="edu-meta"><b>2010</b>—<b>2016</b></div>
+      </div>
+      <div class="edu-grade"><b>A+</b><span>Grade</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Services</p>
+      <h2 class="section-title">How I can help</h2>
+      <p class="section-sub">Focused offerings built around one goal — visuals that get remembered.</p>
+    </div>
+
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Featured Work</p>
+      <h2 class="section-title">Selected Projects</h2>
+      <p class="section-sub">A few recent pieces spanning branding, social, and long-form edits.</p>
+    </div>
+
+    <div class="projects-wrap">
+      <div class="projects-track" id="projectsTrack"></div>
+      <div class="projects-nav">
+        <button id="projPrev" aria-label="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        </button>
+        <button id="projNext" aria-label="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid reveal">
+      <div class="contact-left">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Got a story worth telling?</h2>
+        <p>I'm currently open to new freelance projects and full-time opportunities. Let's make something that looks expensive.</p>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+            <span>hello@ayanhussain.com</span>
+          </div>
+          <div class="contact-info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>India · Remote</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Project inquiry">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-submit">
+          Send Message
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
+        </button>
+        <p class="form-note">I'll get back to you within 24 hours.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <!-- Centered social icons: use the existing image files without moving or renaming them. -->
+    <ul class="footer-social-icons" aria-label="Social links">
+      <li>
+        <a class="footer-icon-link" href="https://www.linkedin.com/in/ayan-hussain-79211413b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="Visit Ayan Hussain on LinkedIn">
+          <img src="icons for linkedin and gmail/linkedin.jpg" alt="" class="footer-icon">
+        </a>
+      </li>
+      <li>
+        <a class="footer-icon-link" href="mailto:hello@ayanhussain.com" aria-label="Email Ayan Hussain">
+          <img src="icons for linkedin and gmail/gmail.jpg" alt="" class="footer-icon">
+        </a>
+      </li>
+    </ul>
+    <p class="footer-copy">© 2026 Ayan Hussain. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
